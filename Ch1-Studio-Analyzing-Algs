@@ -1,0 +1,25 @@
+1) Given the un-reduced big-O value, calculate the reduced value.
+  a) 10 = n
+  b) 10n = n
+  c) 5n^2+2n = n^2
+  d) 3log2n+2 = log2n
+  
+2) For each of the following algorithms, calculate the big-O value. Be sure to specify which value n refers to.
+  a) Reversing a string
+    i) O(n): n equals the number of letters to reverse
+  b)Printing out a matrix
+    i) O(n): n equals the number of rows to be printed
+  c) Reversing each string in an array
+    i) O(n^2): n1 equals the number of characters in the string, n2 equals the number of items in the array
+
+3)Suppose you have an array of customer objects, sorted in alphabetical order by last name. For each of the following tasks, determine the run time in terms of big-O.
+  a) O(n): Print the names of all the customers.
+  b) O(n): Print the names of only the customers with last name starting with "A."
+  c) O(n): Find all customers with last name beginning with "A."
+  d) O(n^2): Find all customers with first name beginning with "A."
+  
+4)Now suppose that you have a dictionary (or hash map) of customer objects, where the keys are the letters and the values are arrays storing all customers with last name beginning with that letter. For example, if our dictionary is 'customers' then 'customers ["A"]' is an array of all customers with last name ending with "A." Within each array, the customer objects are not srted in any way.
+  a) O(n): Print the names of all the customers
+  b) O(n): Print the names of only the customers with the last name starting with "A"
+  c) O(n): Find all the customers with last name beginning with "A"
+  d) O(n^2): Find all the customers with first name beginning with "A"
